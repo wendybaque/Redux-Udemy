@@ -1,24 +1,28 @@
+.section-one {
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     text-align: center;
 }
 
 .container {
     width: 250px;
-    min-height: 50px;
     padding: 20px;
     border: 1px solid grey;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 img {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
-#count {
+#count, #count-tab, #count-tv {
     font-weight: bold;
     font-size: 30px;
 }
@@ -29,12 +33,12 @@ img {
 
 button {
     border: 1px solid purple;
-    border-radius: 5px;
     background: purple;
     padding: 10px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
